@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    border: 4px solid blueviolet;
+    margin: 15px 30px;
+    padding: 20px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lavender;
+    border-radius: 20px;
+}
+input[type="text1"],
+textarea{
+    width: 50%;
+
+}
+input[type="submit"]{
+    width: auto;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: blue;
+    color:wheat;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+input[type="number"]{
+    width: 47%;
+}
+input[type="email"]{
+    width: 52%;
+}
+input[type="text2"]{
+    width: 39%;
+    
+}
+input[type="submit"]:hover{
+    background-color: darkgray;
+}
+p{
+    font-size: larger;
+    font-family: inherit;
+}
+h2,h3{
+    font-style: oblique;
+}
+.submit{
+    text-align: center;
+}
